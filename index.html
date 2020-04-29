@@ -15,6 +15,11 @@ Rule 3 - Rock ties with rock
 			let choices = ["Rock", "Paper", "Scissors"];
 			let StubPlyr1 = "Rock";
 
+			for (const i = 0; i < choices.length; i++) {
+				if (choices[i] === StubPlyr1) {
+					console.log("tie");
+				} else console.log("Nothing");
+			}
 			// Rock = "Rock"
 			// let Paper = "Paper"
 			// let Scissors = "Scissors"
